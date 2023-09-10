@@ -15,17 +15,15 @@ int main(void)
 	c = 'a';
 	e = 'A';
 	while
-	    
-	       (c <= 'z') {
-		       putchar(c);
-		       c++;
-	       }
-         while
-
-	       (e <= 'Z') {
-		      putchar (e);
-		      e++;
-	       }
-          putchar('\n');
-	  return (0);
-}	  
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(e <= 'Z') {
+			putchar (e);
+			e++;
+		}
+	putchar('\n');
+	return (0);
+}
